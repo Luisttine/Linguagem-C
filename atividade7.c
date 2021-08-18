@@ -1,21 +1,14 @@
 #include <stdio.h>
-#include <conio.h>
 
 int main()
 {
-    int num, x;
+    int fat, n;
+    printf("Insira um valor: ");
+    scanf("%d", &n);
 
-    printf("Digite um número: ");
-    scanf("%d", &num);
-
-    if(num == 0){
-        printf("Seu fatorial é 1");
+    for(fat = 1; n > 1; n = n - 1){
+        fat = fat * n;
     }
-    else{
-        for(; num <= 1; num--){
-        x = num*(num-1) + x;
-        }
-        printf("Seu fatorial é %d", x);
-
-    }
+    printf("\nFatorial calculado: %d", fat);
+    return 0;
 }
