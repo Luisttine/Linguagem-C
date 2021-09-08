@@ -4,7 +4,7 @@ int main ()
 {
     int a, b=1;
 
-    printf("Calculo dos quadrados de uma sequencia de números\n\n");
+    printf("\t\tCalculo dos quadrados de uma sequencia de números\n\n");
     printf("Digite um número: ");
     scanf("%d", &a);
 
